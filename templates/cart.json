@@ -1,1 +1,46 @@
-{"sections":{"main":{"type":"main-cart","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+      }
+    },
+    "bf8a7902-35aa-4704-a9a1-8af1971c1ee8": {
+      "type": "apps",
+      "blocks": {
+        "8399e28d-bcb2-4558-9c90-e1f3fb7061bc": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-458034"
+          }
+        }
+      },
+      "block_order": [
+        "8399e28d-bcb2-4558-9c90-e1f3fb7061bc"
+      ],
+      "settings": {
+      }
+    },
+    "7709996f-1dea-4b4d-a255-2ad4baa9672d": {
+      "type": "apps",
+      "blocks": {
+        "fd0edcf6-8066-40b6-a5c8-0e7849f3f03c": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-851506"
+          }
+        }
+      },
+      "block_order": [
+        "fd0edcf6-8066-40b6-a5c8-0e7849f3f03c"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bf8a7902-35aa-4704-a9a1-8af1971c1ee8",
+    "7709996f-1dea-4b4d-a255-2ad4baa9672d"
+  ]
+}

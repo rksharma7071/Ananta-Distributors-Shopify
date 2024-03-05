@@ -1,1 +1,71 @@
-{"sections":{"collection-banner":{"type":"main-collection-banner","settings":{}},"collection-products":{"type":"main-collection-products","settings":{}}},"order":["collection-banner","collection-products"]}
+{
+  "sections": {
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "369ab5f0-4812-429d-9e26-c072deae652d": {
+      "type": "apps",
+      "blocks": {
+        "85a0fe5d-4530-4805-8c59-d21d1ce3c531": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/product-filter\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "85a0fe5d-4530-4805-8c59-d21d1ce3c531"
+      ],
+      "settings": {
+      }
+    },
+    "a5f0316f-b74c-4430-9599-352a7afb3e4c": {
+      "type": "apps",
+      "blocks": {
+        "14f71490-177c-4bea-9017-54f35bf9e157": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "collectionpage-636524"
+          }
+        }
+      },
+      "block_order": [
+        "14f71490-177c-4bea-9017-54f35bf9e157"
+      ],
+      "settings": {
+      }
+    },
+    "7b6d980b-8a41-46bd-a39a-587442522c6e": {
+      "type": "apps",
+      "blocks": {
+        "cc0719c5-e332-443d-8091-d279258d1e9e": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "collectionpage-127636"
+          }
+        }
+      },
+      "block_order": [
+        "cc0719c5-e332-443d-8091-d279258d1e9e"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "369ab5f0-4812-429d-9e26-c072deae652d",
+    "collection-banner",
+    "collection-products",
+    "a5f0316f-b74c-4430-9599-352a7afb3e4c",
+    "7b6d980b-8a41-46bd-a39a-587442522c6e"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}

@@ -613,38 +613,6 @@
         "fixed_height_mobile": 300,
         "color_scheme": "white"
       }
-    },
-    "945e5e53-043a-484f-9450-ade2933f10d8": {
-      "type": "apps",
-      "blocks": {
-        "211bec08-98f5-4ee5-9800-16045a429ee1": {
-          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-          "settings": {
-            "widgetId": "homepage-116265"
-          }
-        }
-      },
-      "block_order": [
-        "211bec08-98f5-4ee5-9800-16045a429ee1"
-      ],
-      "settings": {
-      }
-    },
-    "bc24e8ac-1e21-4e47-ae9e-5a1fe66cca00": {
-      "type": "apps",
-      "blocks": {
-        "27857e1a-96eb-4a85-9f9e-04ef9c08f284": {
-          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-          "settings": {
-            "widgetId": "homepage-722738"
-          }
-        }
-      },
-      "block_order": [
-        "27857e1a-96eb-4a85-9f9e-04ef9c08f284"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -663,8 +631,6 @@
     "product-comparison-grid",
     "multi-column",
     "video",
-    "media-grid",
-    "945e5e53-043a-484f-9450-ade2933f10d8",
-    "bc24e8ac-1e21-4e47-ae9e-5a1fe66cca00"
+    "media-grid"
   ]
 }

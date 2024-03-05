@@ -273,7 +273,8 @@
     <noscript><link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}"></noscript>
   {%- endif -%}
 
-  {{ content_for_header }}
+  {% render 'boost-sd-fallback' %}
+    {{ content_for_header }}
 
   {%- if request.design_mode -%}
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
