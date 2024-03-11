@@ -447,16 +447,12 @@
 
     ],
     "blocks": {
-      "a9e24509-2128-4635-b341-2985e975c9c0": {
-        "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/boost-sd\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+      "15255627403292782234": {
+        "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-embed-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
         "disabled": false,
         "settings": {
-        }
-      },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": false,
-        "settings": {
+          "placement_selector": "",
+          "multiple_widgets": true
         }
       }
     }
