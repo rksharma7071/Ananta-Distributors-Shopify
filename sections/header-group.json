@@ -106,11 +106,54 @@
         "dividers": "border-top",
         "prevent_animation": false
       }
+    },
+    "custom_liquid_DLp6zQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Add HTML or Liquid code to create advanced customizations.",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
+    "custom_header_bmMJz8": {
+      "type": "custom-header",
+      "settings": {
+        "enable_sticky": false,
+        "mobile_menu_position": "burger-right",
+        "logo_text": "",
+        "logo_type_scale": "2",
+        "logo_width": 150,
+        "logo_h1": true,
+        "logo_center": false,
+        "enable_search": true,
+        "minimise_search_mobile": false,
+        "minimise_search_desktop": false,
+        "enable_language_selector": true,
+        "menu": "main-menu",
+        "menu_center": false,
+        "repeat_links": true,
+        "menu_featured_link": "Sale",
+        "quicklinks_menu": "",
+        "cta_show": false,
+        "cta_icon": "phone",
+        "cta_label": "Call us",
+        "cta_link": "",
+        "cta_border_color": "#333333",
+        "cta_bg_color": "#333333",
+        "cta_text_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#070707",
+        "accent_color": "#777777"
+      }
     }
   },
   "order": [
     "announcement",
     "header",
-    "promo-strip"
+    "promo-strip",
+    "custom_liquid_DLp6zQ",
+    "custom_header_bmMJz8"
   ]
 }
