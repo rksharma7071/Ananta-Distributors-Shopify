@@ -3,10 +3,18 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_page_title": true,
+        "heading_align": "text-center"
+      }
+    },
+    "main_register_wholesale_gmNRNk": {
+      "type": "main-register-wholesale",
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "main_register_wholesale_gmNRNk"
   ]
 }
