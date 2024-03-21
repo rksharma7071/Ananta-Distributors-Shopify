@@ -3,7 +3,7 @@
     <h1 class="h2">{{ 'customer.register.title' | t }}</h1>
   </div>
 
-  {%- form 'create_customer', {redirect: {type: 'permanent', url: '/account'}}, class: 'form form-width mx-auto', novalidate: 'novalidate' -%}
+  {%- form 'create_customer', return_to: routes.account_login_url, class: 'form form-width mx-auto', novalidate: 'novalidate' -%}
     <input type="hidden" id="customer_tags" name="customer[tags]" value="b2b"/>
     {%- if form.errors -%}
       <div class="alert mb-8 bg-error-bg text-error-text" tabindex="-1" autofocus>
