@@ -106,22 +106,11 @@
         "dividers": "border-top",
         "prevent_animation": false
       }
-    },
-    "custom_liquid_DLp6zQ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "Add HTML or Liquid code to create advanced customizations.",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
-      }
     }
   },
   "order": [
     "announcement",
     "header",
-    "promo-strip",
-    "custom_liquid_DLp6zQ"
+    "promo-strip"
   ]
 }
