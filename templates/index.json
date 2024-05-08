@@ -38,6 +38,7 @@
         },
         "slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "url": "",
             "overlay_position": "justify-center items-center",
